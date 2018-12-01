@@ -1,2 +1,4 @@
-# advent-of-code-2018
-Advent of Code 2018 - https://adventofcode.com
+Advent of Code 2018
+===================
+
+For more info see: https://adventofcode.com
