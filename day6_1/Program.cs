@@ -34,8 +34,6 @@ namespace day6_1
             var maxY = coordinates.OrderByDescending(c => c.Y)
                                   .First()
                                   .Y;
-            
-            Console.WriteLine($"Coordinates: {minX} {maxX} {minY} {maxY}");
 
             var areas = coordinates.ToDictionary(c => c, c => 0);
 
@@ -63,10 +61,6 @@ namespace day6_1
 
             var solution = areas.Values.Max();
 
-            Console.WriteLine("Areas:");
-            areas.Values.ToList().ForEach(Console.WriteLine);
-
-            Console.WriteLine("Solution:");
             Console.WriteLine(solution);
         }
 
