@@ -25,7 +25,7 @@ namespace day11_1
                     int powerlevel = rackId * cellY;
                     powerlevel = powerlevel + gridSerialNumber;
                     powerlevel = powerlevel * rackId;
-                    powerlevel = (powerlevel / 10) % 100;
+                    powerlevel = (powerlevel / 100) % 10;
                     powerlevel = powerlevel - 5;
 
                     grid[x, y] = powerlevel;
